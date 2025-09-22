@@ -1,0 +1,33 @@
+{
+  "total_original_features": 13,
+  "final_selected_features": 12,
+  "selected_feature_names": [
+    "thal",
+    "ca",
+    "cp",
+    "exang",
+    "oldpeak",
+    "thalach",
+    "age",
+    "slope",
+    "trestbps",
+    "sex",
+    "chol",
+    "restecg"
+  ],
+  "selection_methods_used": [
+    "Random Forest",
+    "XGBoost",
+    "RFE",
+    "Chi-square",
+    "F-score"
+  ],
+  "optimal_feature_counts": {
+    "random_forest": 8,
+    "xgboost": 12
+  },
+  "performance_with_selected_features": {
+    "random_forest_accuracy": 0.8244632768361582,
+    "xgboost_accuracy": 0.8211864406779661
+  }
+}

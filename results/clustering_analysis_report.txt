@@ -1,0 +1,58 @@
+UNSUPERVISED LEARNING - CLUSTERING ANALYSIS REPORT
+============================================================
+
+DATASET INFORMATION:
+- Data used: Selected features from feature selection
+- Number of samples: 297
+- Number of features: 12
+- Data preprocessing: Already scaled and normalized
+- True label classes: [np.int64(0), np.int64(1)]
+
+OPTIMAL K DETERMINATION:
+- Method used for final selection: Elbow
+- K-range tested: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+- Optimal K selected: 3
+- Elbow method suggestion: 3
+- Silhouette method suggestion: 2
+- Maximum silhouette score: 0.185
+
+K-MEANS CLUSTERING RESULTS:
+- Number of clusters: 3
+- Silhouette Score: 0.141
+- Inertia: 2638.08
+- Cluster purity: 0.818
+- Cluster distribution: {0: np.int64(103), 1: np.int64(79), 2: np.int64(115)}
+
+HIERARCHICAL CLUSTERING RESULTS:
+- Methods tested: ['ward', 'complete', 'average']
+- Best method: average
+- Best silhouette score: 0.295
+- Cluster purity: 0.542
+
+CLUSTER VS TRUE LABELS COMPARISON:
+- K-means purity: 0.818
+- Hierarchical purity: 0.542
+- Clustering captures underlying patterns in the data
+
+VISUALIZATION RESULTS:
+- 2D PCA visualization created
+- 3D PCA visualization created
+- Dendrogram analysis completed
+- Cluster characteristics analyzed
+
+FILES GENERATED:
+- models/kmeans_model.pkl
+- models/hierarchical_average_model.pkl
+- results/clustering_results.csv
+- results/clustering_metrics.json
+
+DELIVERABLES STATUS:
+- Clustering models with visualized results: COMPLETED
+- K-means with optimal K determination: COMPLETED
+- Hierarchical clustering with dendrogram: COMPLETED
+- Cluster comparison with true labels: COMPLETED
+
+NEXT STEPS:
+- Hyperparameter tuning for supervised models
+- Model ensemble techniques
+- Final model deployment preparation

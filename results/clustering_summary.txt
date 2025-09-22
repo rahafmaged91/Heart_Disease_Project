@@ -1,0 +1,5 @@
+CLUSTERING SUMMARY:
+K-Means: 3 clusters, Silhouette: 0.141, Purity: 0.818
+Hierarchical: average method, Silhouette: 0.295, Purity: 0.542
+Data: 297 samples, 12 features
+Files: kmeans_model.pkl, clustering_results.csv, clustering_metrics.json

@@ -1,0 +1,18 @@
+{
+    "model_name": "Logistic Regression",
+    "optimization_method": "Grid Search",
+    "required_features": [
+        "thal",
+        "ca",
+        "cp",
+        "exang",
+        "oldpeak",
+        "thalach",
+        "age",
+        "slope",
+        "trestbps",
+        "sex",
+        "chol",
+        "restecg"
+    ]
+}

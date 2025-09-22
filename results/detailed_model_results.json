@@ -1,0 +1,42 @@
+{
+  "Logistic Regression": {
+    "test_accuracy": 0.6166666666666667,
+    "test_precision": 0.5615853658536586,
+    "test_recall": 0.6166666666666667,
+    "test_f1": 0.568523592085236,
+    "test_auc": 0.0,
+    "cv_mean": 0.5571808510638298,
+    "cv_std": 0.05650578757058773,
+    "training_time": 0.002959728240966797
+  },
+  "Decision Tree": {
+    "test_accuracy": 0.55,
+    "test_precision": 0.5175757575757576,
+    "test_recall": 0.55,
+    "test_f1": 0.5323076923076923,
+    "test_auc": 0.0,
+    "cv_mean": 0.5570921985815602,
+    "cv_std": 0.06933644335516502,
+    "training_time": 0.0024077892303466797
+  },
+  "Random Forest": {
+    "test_accuracy": 0.5333333333333333,
+    "test_precision": 0.3710144927536232,
+    "test_recall": 0.5333333333333333,
+    "test_f1": 0.4376068376068376,
+    "test_auc": 0.0,
+    "cv_mean": 0.586613475177305,
+    "cv_std": 0.03789476253407201,
+    "training_time": 0.09694170951843262
+  },
+  "Support Vector Machine": {
+    "test_accuracy": 0.5666666666666667,
+    "test_precision": 0.4427325581395349,
+    "test_recall": 0.5666666666666667,
+    "test_f1": 0.49298989898989903,
+    "test_auc": 0.0,
+    "cv_mean": 0.5910460992907801,
+    "cv_std": 0.04773061500833601,
+    "training_time": 0.012392520904541016
+  }
+}

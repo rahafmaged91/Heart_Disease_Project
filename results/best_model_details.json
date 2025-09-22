@@ -1,0 +1,14 @@
+{
+  "model_name": "Logistic Regression",
+  "optimization_method": "Grid Search",
+  "cv_score": 0.8311170212765957,
+  "test_accuracy": 0.8833333333333333,
+  "test_f1_score": 0.881841432225064,
+  "best_parameters": {
+    "C": 0.01,
+    "max_iter": 1000,
+    "penalty": "l2",
+    "solver": "lbfgs"
+  },
+  "model_type": "LogisticRegression"
+}

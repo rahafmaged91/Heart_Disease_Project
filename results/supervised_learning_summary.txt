@@ -1,0 +1,31 @@
+
+SUPERVISED LEARNING MODELS - SUMMARY REPORT
+==========================================
+
+BEST MODEL: Support Vector Machine
+Test Accuracy: 0.867
+Test F1-Score: 0.864
+Test AUC: 0.955
+Training Time: 0.01 seconds
+
+MODELS RANKING (by Test Accuracy):
+4. Support Vector Machine: 0.867
+1. Logistic Regression: 0.850
+3. Random Forest: 0.817
+2. Decision Tree: 0.767
+
+
+DATA INFORMATION:
+- Training samples: 237
+- Testing samples: 60
+- Features used: 12
+- Target classes: 2
+
+FILES GENERATED:
+- Model files: models/[model_name]_model.pkl
+- Best model: models/best_model.pkl
+- Performance comparison: results/models_performance_comparison.csv
+- Classification reports: results/classification_reports.txt
+- Feature importance: results/[model]_feature_importance.csv
+
+READY FOR NEXT PHASE: Hyperparameter Tuning

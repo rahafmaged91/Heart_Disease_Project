@@ -1,0 +1,37 @@
+{
+  "model_info": {
+    "model_name": "Logistic Regression",
+    "model_type": "LogisticRegression",
+    "optimization_method": "Random Search",
+    "creation_timestamp": "20250922_005951",
+    "sklearn_version": "1.7.2",
+    "python_version": "3.13.7"
+  },
+  "performance_metrics": {
+    "original_cv_score": 0.5698581560283689,
+    "original_test_accuracy": 0.6,
+    "original_test_f1_score": 0.5490989889106327,
+    "pipeline_test_accuracy": 0.6,
+    "pipeline_test_f1_score": 0.5490989889106327,
+    "pipeline_train_accuracy": 0.6413502109704642,
+    "pipeline_train_f1_score": 0.5912877041150003
+  },
+  "data_info": {
+    "total_features": 12,
+    "selected_features_count": 12,
+    "selected_features": [
+      "thal",
+      "ca",
+      "oldpeak",
+      "cp",
+      "thalach",
+      "exang",
+      "slope",
+      "age",
+      "chol",
+      "sex",
+      "trestbps",
+      "fbs"
+    ],
+    "target_classes": [
+      
