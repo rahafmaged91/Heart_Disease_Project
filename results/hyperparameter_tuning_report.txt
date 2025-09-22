@@ -6,7 +6,7 @@ OPTIMIZATION OVERVIEW:
 - Optimization methods: Grid Search & Randomized Search
 - Cross-validation: 5-Fold Stratified
 - Primary metric: Accuracy
-- Total optimization time: 39.1 seconds
+- Total optimization time: 39.8 seconds
 
 BEST PERFORMING MODEL:
 - Model: Logistic Regression
@@ -33,29 +33,29 @@ Model: Logistic Regression
   Baseline Accuracy: 0.617
   GridSearch Accuracy: 0.883
   RandomSearch Accuracy: 0.850
-  GridSearch Time: 4.1s
-  RandomSearch Time: 0.2s
+  GridSearch Time: 3.8s
+  RandomSearch Time: 0.3s
 
 Model: Decision Tree
   Baseline Accuracy: 0.550
   GridSearch Accuracy: 0.767
   RandomSearch Accuracy: 0.817
-  GridSearch Time: 0.4s
+  GridSearch Time: 0.5s
   RandomSearch Time: 0.2s
 
 Model: Random Forest
   Baseline Accuracy: 0.533
   GridSearch Accuracy: 0.817
   RandomSearch Accuracy: 0.833
-  GridSearch Time: 18.4s
-  RandomSearch Time: 11.0s
+  GridSearch Time: 18.8s
+  RandomSearch Time: 11.5s
 
 Model: SVM
   Baseline Accuracy: 0.000
   GridSearch Accuracy: 0.867
   RandomSearch Accuracy: 0.833
   GridSearch Time: 0.9s
-  RandomSearch Time: 3.8s
+  RandomSearch Time: 3.9s
 
 FILES GENERATED:
 - models/final_best_model.pkl (Best optimized model)

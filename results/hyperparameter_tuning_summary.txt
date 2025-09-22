@@ -7,7 +7,7 @@ CV Score: 0.831
 
 Optimization Methods: Grid Search & Random Search
 Models Tuned: 4
-Total Time: 39.1 seconds
+Total Time: 39.8 seconds
 Average Improvement: 45.3%
 
 Files Generated:

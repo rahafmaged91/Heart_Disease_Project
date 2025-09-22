@@ -12,7 +12,7 @@ MODEL INFORMATION:
 FILES CREATED:
 - Complete Pipeline (Joblib): models/deployment/heart_disease_pipeline_latest.joblib
 - Complete Pipeline (Pickle): models/deployment/heart_disease_pipeline_latest.pkl  
-- Model Only: models/deployment/heart_disease_model_only_20250922_122708.pkl
+- Model Only: models/deployment/heart_disease_model_only_20250922_153916.pkl
 - Metadata: models/deployment/model_metadata_latest.json
 - Deployment Script: models/deployment/heart_disease_predictor.py
 
