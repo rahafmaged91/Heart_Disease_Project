@@ -1,0 +1,48 @@
+==================================================== How to Deploy the Streamlit App using Ngrok
+This guide provides the steps to make your local Streamlit application publicly accessible over the internet using Ngrok.
+
+Step 1: Install Required Library
+If you haven't already, install the pyngrok library, which allows Python to control Ngrok.
+
+pip install pyngrok
+
+Step 2: Sign Up for Ngrok and Get Your Authtoken
+Go to the Ngrok website: https://ngrok.com/
+
+Sign up for a free account.
+
+Once logged in, navigate to the "Your Authtoken" section on your dashboard:
+https://dashboard.ngrok.com/get-started/your-authtoken
+
+Copy your unique authtoken. It's a long string of characters.
+
+Step 3: Configure Ngrok with Your Authtoken
+Open your terminal or command prompt in the project's root directory (Heart_Disease_Project) and run the following command. Replace <YOUR_AUTHTOKEN> with the token you copied in the previous step.
+
+ngrok config add-authtoken <YOUR_AUTHTOKEN>
+
+This command only needs to be run once. It saves your token to a configuration file on your computer.
+
+Step 4: Run the Deployment Script
+A helper script run_ngrok.py has been created to automate the process of starting both the Streamlit app and the Ngrok tunnel.
+
+From your project's root directory, simply run:
+
+python run_ngrok.py
+
+What Happens Next?
+The script will first start the Streamlit application in the background on a specific port (e.g., 8502).
+
+It will then create a secure public URL using Ngrok that tunnels to your local application.
+
+The public URL will be printed in your terminal. It will look something like this:
+https://<random-characters>.ngrok.io
+
+Step 5: Access Your Live Application
+Copy the public URL from the terminal.
+
+Paste it into any web browser on any device.
+
+Anyone with this link can now access and interact with your live Streamlit application as long as the script is running in your terminal.
+
+To stop the application, simply press Ctrl+C in the terminal window where the script is running.
