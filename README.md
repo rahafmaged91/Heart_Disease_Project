@@ -36,7 +36,7 @@ Heart_Disease_Project/
 ├── README.md             # This file
 └── requirements.txt      # Lists project dependencies
 
-🚀 Setup and Installation
+ Setup and Installation
 To run this project locally, please follow these steps:
 
 Clone the Repository:
@@ -59,7 +59,7 @@ Install all required libraries using the requirements.txt file.
 
 pip install -r requirements.txt
 
-📈 Usage
+ Usage
 Running the Predictive UI:
 To launch the interactive web application, execute the following command from the project's root directory:
 
